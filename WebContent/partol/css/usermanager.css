@@ -1,0 +1,39 @@
+.robin {
+	margin: 20px auto;
+	background-color: gainsboro;
+	padding: 10px;
+}
+
+.robin td {
+	padding: 10px 5px;
+	font-size: 15px;
+}
+
+table {
+	background-color: gainsboro;
+}
+
+.robin td:even {
+	text-align: left;
+}
+
+.robin td:odd {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+	padding: 20px;
+}
+
+tr {
+	width: 100%;
+}
+
+.lkbtn {
+	border-radius: 6px;
+	padding: 6px;
+	color: black !important;
+	display: block;
+	background-color: gray;
+}

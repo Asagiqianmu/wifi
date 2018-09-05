@@ -1,0 +1,407 @@
+/*css document*/
+/*==================login 椤甸潰鏍峰紡==================*/
+/*.body{  width: 750px; margin: 0 auto; position:fixed; z-index: -1; left: 0;  right: 0; top: 0; opacity: 0.5;}*/
+.loginwrap {
+	width: 5.52rem;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.login {
+	
+}
+
+.login h1 {
+	font-size: 0.4rem;
+	margin-top: 0.7rem;
+}
+
+.phoneinput {
+	border-bottom: 1px #333 solid;
+	margin-top: 0.9rem;
+	padding: 0.19rem 0;
+	position: relative;
+}
+
+.phoneinput a {
+	position: absolute;
+	bottom: -0.4rem;
+	right: 0;
+	color: #258de6;
+	font-size: 0.22rem;
+}
+
+.phoneinput input {
+	width: 100%;
+	color: #333;
+	font-size: 0.64rem;
+	text-align: center;
+}
+/*.phoneinput input[type="password"]{ font-size: 0.26rem;}*/
+.phoneinput .fogword {
+	color: #258DE6;
+	text-align: right;
+	font-size: 0.22rem;
+	position: relative;
+	bottom: -0.5rem;
+}
+
+.password input {
+	width: 85%;
+	text-align: center;
+}
+
+.passnote {
+	color: #f00;
+	font-size: 0.24rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -0.5rem;
+	display: none;
+}
+
+.passpicwrap {
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+	bottom: 0.3rem;
+	width: 1rem;
+	height: 1rem;
+}
+
+.passwordpic {
+	width: 0.37rem;
+	height: 0.27rem;
+	position: absolute;
+	bottom: 15px;
+	right: 0;
+}
+
+.nextphone {
+	color: #258de6;
+	position: relative;
+	text-align: center;
+	margin-top: 0.8rem;
+}
+
+.nextphone input[type="button"]:disabled {
+	color: #ccc;
+}
+
+.nextphone input[type="button"] {
+	background: none;
+	border: none;
+	font-size: 0.44rem;
+	color: #258de6;
+	cursor: pointer;
+}
+
+.user-prompt {
+	border: 1px #efefef solid;
+	margin: 0 0.15rem;
+	margin-top: 1rem;
+}
+
+.user-prompt p {
+	margin: 0.1rem;
+	background: #efefef;
+	font-size: 0.28rem;
+	padding: 0.2rem 0;
+}
+
+.copyright {
+	position: absolute;
+	bottom: 0.15rem;
+	left: 0;
+	z-index: 9999;
+	right: 0;
+	text-align: center;
+}
+/*==================banner 椤甸潰鏍峰紡==================*/
+#banner {
+	position: relative;
+	width: 100%;
+	height: 2.91rem;
+	overflow: hidden;
+}
+
+#banner_list {
+	height: 100%;
+}
+
+#banner_list img {
+	border: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#banner ul {
+	position: absolute;
+	z-index: 9;
+	margin: 0;
+	padding: 0;
+	left: 50%;
+	margin-left: -0.58rem;
+	right: 0;
+	bottom: 0.09rem;
+	width: 1.79rem;
+}
+
+#banner ul li {
+	padding: 0px 0.05rem;
+	width: 0.15rem;
+	height: 0.15rem;
+	border-radius: 50%;
+	border: 1px #fff solid;
+	color: #FFF;
+	cursor: pointer;
+	float: left;
+	margin: 0 8px;
+}
+
+#banner ul li.on {
+	background-color: #fff;
+}
+
+/*==================login 楠岃瘉鐮佹牱寮�==================*/
+.loginword {
+	position: relative;
+}
+
+.loginwordphone {
+	position: absolute;
+	left: 0;
+	top: 0.7rem;
+	right: 0;
+	font-size: 0.33rem;
+	color: #333;
+	z-index: 9999;
+}
+
+.inputphone {
+	font-size: 0.3rem;
+	margin-top: 0.3rem;
+}
+
+.inputphone span {
+	
+}
+
+.inputphone p {
+	display: inline-block;
+	padding-left: 0.15rem;
+	font-size: 0.3rem;
+}
+
+.inputphone p i {
+	color: #258de6;
+}
+
+.inputphone a#retext {
+	color: #258de6;
+	display: none;
+	font-size: 0.26rem;
+	padding-left: 0.15rem;
+}
+/*#validate {position: relative; width: 100%; height: 1rem;}*/
+.validate {
+	position: relative;
+	height: 0.97rem;
+	text-align: center;
+	margin-top: 0.55rem;
+	width: 100%;
+}
+
+.validate input {
+	width: 150%;
+	height: 100%;
+	background: #fff;
+	border-radius: 0;
+	border: none;
+	position: absolute;
+	z-index: 99;
+	left: -30%;
+	opacity: 0;
+	color: #fff;
+	z-index: 9999;
+}
+
+.validate .validate-text {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.validate .validate-text i {
+	width: 0.97rem;
+	height: 0.97rem;
+	line-height: 0.97rem;
+	display: block;
+	float: left;
+	margin: 0 0.19rem;
+	cursor: pointer;
+	z-index: 99999;
+	font-size: 0.64rem;
+	border-radius: 8px;
+	border: 1px #000 solid;
+}
+
+.validate .validate-text i.active {
+	width: 0.97rem;
+	height: 0.97rem;
+	line-height: 0.97rem;
+}
+
+.validate p {
+	position: absolute;
+	bottom: -0.5rem;
+	left: 0;
+	right: 0;
+	color: #f00;
+	display: none;
+}
+
+/*==================蹇樿瀵嗙爜  璁剧疆鏂板瘑鐮�==================*/
+.note {
+	font-size: 0.26rem;
+	margin-top: 0.3rem;
+}
+
+/*==================蹇樿瀵嗙爜  鍥剧墖楠岃瘉鍚�==================*/
+.pic-validation {
+	width: 2.8rem;
+	margin: 0 auto; /* overflow: hidden; */
+	position: relative;
+}
+/* .pic-validation img{ width: 1.31rem; height: 0.5rem; vertical-align: middle; float: left;}
+.pic-validation a{float: right; font-size: 0.28rem; text-decoration: underline; color: #258de6;} */
+.next-validate {
+	margin-top: 0.45rem;
+	font-size: 0.38rem;
+	padding: 0 0.5rem;
+	position: relative;
+}
+
+.next-validate a {
+	float: left;
+}
+
+.code {
+	background: #fdfdfd;
+	border: 1px #140e0f solid;
+	font-weight: bold;
+	text-align: center;
+	color: #050505;
+	font-size: 0.3rem;
+	letter-spacing: 1px;
+	float: left;
+	cursor: pointer;
+	width: 1.33rem;
+	height: 0.50rem;
+	line-height: 0.50rem;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.next-validate .nextloading {
+	float: right;
+}
+
+.next-validate .nextloading input {
+	font-size: 0.38rem;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+/*==================蹇樿瀵嗙爜  鍥剧墖楠岃瘉鍚�==================*/
+input::-webkit-input-placeholder {
+	color: #ccc;
+	font-size: 18px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+/*椤甸潰棰勫姞杞�  鍔ㄧ敾*/
+.loading {
+	display: none;
+	width: 100%;
+	/*position: absolute;*/
+	font-size: 0.22rem;
+	text-align: center;
+}
+
+.loadPic {
+	width: 100px;
+	margin: 0 auto;
+}
+
+/*==================椤甸潰棰勫姞杞�==================*/
+.fillname {
+	position: relative;
+	display: none;
+}
+
+.fillnamemoble {
+	background: rgba(0, 0, 0, 0.35);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+
+.fillnamewrap {
+	background: #f6f6f6;
+	position: fixed;
+	width: 80%;
+	top: 30%;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	border-radius: 0.18rem;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0.34rem;
+	-webkit-border-radius: 0.18rem;
+	-ms-border-radius: 0.18rem;
+	-o-border-radius: 0.18rem;
+	z-index: 9999;
+}
+
+.fillnamewrap h2 {
+	color: #000;
+	letter-spacing: 2px;
+	padding: 0.4rem 0;
+	font-size: 0.34rem;
+	font-weight: bold;
+}
+
+.fillnamebutton {
+	border-top: 1px #c3c3c3 solid;
+	margin-top: 0.2rem;
+}
+
+.fillnamebutton a {
+	display: block;
+	text-align: center;
+	padding: 0.25rem 0;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*鎻愮ず妗�*/
+/* .layui-m-layercont {
+      padding: 42px 0px!important;
+      background: url(img/information (1).png) no-repeat 0px 0px;
+      background-size: 20px;
+      line-height: 22px;
+      text-align: center;
+  }
+  .layui-m-layer0 .layui-m-layerchild {
+      width: 82%!important;
+      max-width: 640px;
+  } */

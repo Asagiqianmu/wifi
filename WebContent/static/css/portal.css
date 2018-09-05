@@ -1,0 +1,595 @@
+/* 娣卞湷portal椤甸潰 */
+.MaxZindex {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: url(../images/bg.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.nav {;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 10%;
+}
+
+.navLeft {
+	float: left;
+	width: 22%;
+	padding-top: 5%;
+}
+
+.navLeft>div {
+	width: 100%;
+}
+
+.navLeftImg>img {
+	width: 100%;
+	height: 100%;
+}
+
+.navLeftName {
+	float: left;
+	margin-top: -5%;
+	font-size: 1.2rem;
+	color: #fff;
+	text-align: center;
+}
+
+.navRight {
+	float: left;
+	width: 75%;
+}
+
+.navRight>div {
+	width: 100%;
+}
+
+.navRightTop {
+	margin-top: 18%;
+	font-size: 1.9em;
+	/*font-weight: bold;*/
+	color: #fff;
+	text-align: center;
+}
+
+.navRightBottom {
+	margin-top: 2%;
+	letter-spacing: 2px;
+	font-size: 1.5rem;
+	color: #fff;
+	text-align: center;
+}
+
+.navRightBottom span {
+	float: right;
+	margin-right: 2%;
+}
+
+.CenterAlert {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 5%;
+	background-color: #cceaf8;
+	border-radius: 8px;
+	padding: 6%;
+}
+
+.alertPhone {
+	border: 1px solid #259cd7;
+	box-shadow: 2px 2px 10px #259cd7;
+	border-radius: 5px;
+	background-color: #fff;
+	width: 100%;
+	height: 32px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.alertPhone>div {
+	float: left;
+}
+
+.alertPhoneL {
+	font-size: 1.2rem;
+	width: 38%;
+	margin-left: 2%;
+	color: #1f7faf;
+	height: 30px;
+}
+
+.alertPhoneLNum {
+	font-size: 1.6rem;
+	height: 15px;
+	line-height: 15px;
+	margin-top: 2px;
+}
+
+.alertPhoneLNumText {
+	font-size: 1.2rem;
+	height: 15px;
+	line-height: 15px;
+}
+
+.alertPhoneR {
+	width: 60%;
+	background-color: yellowgreen !important;
+	height: 32px;
+}
+
+.alertPhoneR>input {
+	width: 100%;
+	border: 0;
+	outline: none;
+	height: 32px;
+}
+
+.alertPwd {
+	width: 100%;
+	height: 32px;
+}
+
+.alertPwd>div {
+	float: left;
+}
+
+.alertPwdL {
+	width: 70%;
+	margin-left: 5%;
+	border: 1px solid #259cd7;
+	box-shadow: 2px 2px 10px #259cd7;
+	border-radius: 5px;
+}
+
+.ZindexTip {
+	z-index: 10000;
+	position: fixed;
+	top: 0px !important;
+	right: 0px !important;
+	bottom: 0px !important;
+	left: 0px !important;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ZindexTipAlert {
+	position: fixed;
+	width: 80%;
+	height: 47%;
+	border-radius: 6px;
+	top: 45%;
+	left: 55%;
+	margin-left: -45%;
+	margin-top: -150px;
+	z-index: 10001;
+	display: none;
+}
+
+.top_bg {
+	margin-top: 1%;
+}
+
+.center_bg {
+	width: 100%;
+	margin: 0 auto;
+	height: 75%;
+	margin-top: 3%;
+	position: relative;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.center_bgImg {
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	width: 50%;
+	height: 44%;
+}
+
+.center_bgImg2 {
+	width: 100%;
+	height: 100%;
+}
+
+#alertText {
+	position: absolute;
+	left: 0;
+	bottom: 10%;
+	text-align: center;
+	color: #fff;
+	font-size: 2rem;
+	font-weight: bold;
+	width: 100%;
+}
+
+#closeBtn {
+	width: 90%;
+	margin: 0 auto;
+	height: 12%;
+	padding-top: 4%;
+	background-color: #fff;
+	text-align: center;
+	color: #4493fe;
+	font-size: 2rem;
+	font-weight: bold;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+/*鐧诲綍瀹屾垚椤甸潰鐨�*/
+.homepage {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #0c9ee7;
+}
+
+.finishHead1, .finishHead2 {
+	width: 100%;
+	text-align: center;
+	height: 25px;
+	font-size: 1.2rem;
+	line-height: 25px;
+	color: #000;
+	background-color: #fff;
+}
+
+.finishNav {
+	width: 95%;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding-bottom: 3%;
+}
+
+.finishNav>div {
+	float: left;
+	height: 100%;
+}
+
+.finishNavL {
+	text-align: left;
+	color: #cecccd;
+	font-size: 2.4rem;
+	width: 33%;
+	font-weight: bold;
+}
+
+.finishNavBack {
+	width: 30px;
+}
+
+.finishNavC {
+	text-align: center;
+	font-size: 1.8rem;
+	color: #000000;
+	width: 33%;
+	font-weight: bold;
+}
+
+.finishNavR {
+	font-size: 1.8rem;
+	text-align: right;
+	color: #007aff;
+	width: 33%;
+	font-weight: bold;
+}
+/*杞挱css*/
+#FinishSwiper {
+	width: 100%;
+	height: 32%;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+	.swiper-pagination-custom, .swiper-pagination-fraction {
+	display: none;
+}
+
+.swiper-slide>img {
+	width: 100%;
+	height: 100%;
+}
+
+.loginID, .timing {
+	width: 224px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.loginID {
+	margin-top: 4%;
+}
+
+.loginID>div, .timing>div {
+	float: left;
+	color: #FFFFFF;
+	font-size: 1.8rem;
+}
+
+.loginIdName, .timingName {
+	margin-left: 5px;
+}
+
+.loginID .loginIdText, .timing .timingText {
+	margin-left: 10px;
+}
+
+.finishBottom {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #000000;
+	font-size: .12rem;
+}
+
+.finishHotspot {
+	width: 35px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+.finishHotspot>img {
+	width: 100%;
+	height: 100%;
+}
+/*杩欐槸鐑偣鏌ヨ椤甸潰*/
+#search {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	height: 48px;
+	border: 1px solid #e4e3e8;
+	box-shadow: 2px 2px 10px #e4e3e8;
+	border-radius: 4px;
+}
+
+#search>div {
+	float: left;
+}
+
+.searchL {
+	width: 78%;
+	height: 48px;
+}
+
+#search .searchL input {
+	width: 100%;
+	border: 0;
+	height: 48px;
+	text-indent: 6px;
+}
+
+#search .searchC {
+	width: 2%;
+	border-left: 1px solid #DEDEDE;
+	height: 30px;
+	margin-top: 10px;
+}
+
+.searchR {
+	width: 19%;
+	height: 48px;
+	position: relative;
+}
+
+.searchR>img {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 13px;
+	right: 24px;
+}
+
+#inquiryNav {
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	background-color: #d6dae5;
+}
+
+.inquiryNavSon {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.inquiryNavSon>div {
+	float: left;
+}
+
+.inquiryNavSonL {
+	width: 10%;
+	height: 44px;
+}
+
+.inquiryNavSonL>img {
+	width: 70%;
+	height: 70%;
+}
+
+.inquiryNavSonR {
+	width: 90%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+#inquirylist {
+	width: 100%;
+}
+
+.inquirylistRow {
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 1px solid #d2d2d3;
+}
+
+.inquirylistRowL {
+	float: left;
+	margin-top: 10%;
+}
+
+.inquirylistRowR {
+	float: right;
+	line-height: 44px;
+}
+
+.inquirylistRowR>div {
+	float: left;
+}
+
+.inquirylistRowLTop {
+	color: #666666;
+	font-size: 1.6rem;
+	margin-bottom: 4%;
+}
+
+.inquirylistRowLBottom {
+	color: #999999;
+	font-size: 1.4rem;
+	margin-bottom: 9%;
+}
+
+.inquirylistRowRL {
+	color: #333333;
+	font-size: 1.6rem;
+	margin-top: 0%;
+}
+
+.TipsText {
+	width: 100%;
+	text-align: center;
+	font-size: 1.6rem;
+	color: #fff;
+}
+
+/* 濯掍綋鏌ヨ鐨勪竴灏忛儴鍒� */
+@media only screen and (min-width: 540px) {
+	.loginID, .timing {
+		height: 64px;
+		width: 58%;
+	}
+	.finishHead2 {
+		margin-top: -1px;
+		margin-bottom: -1px;
+	}
+	.common_text2 {
+		height: 560px;
+		overflow-y: auto;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	.common_text2 {
+		height: 560px;
+		overflow-y: auto;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+}
+
+@media only screen and (max-width: 540px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and (max-width: 432px) {
+	.common_text2 {
+		height: 445px;
+		overflow-y: auto;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.nav {
+		margin-top: 14%;
+		margin-bottom: 14%;
+	}
+	.common_text2 {
+		height: 445px;
+		overflow-y: auto;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.nav {
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+	.common_text2 {
+		height: 370px;
+		overflow-y: auto;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.nav {
+		margin-top: 8%;
+		margin-bottom: 8%;
+	}
+	.navLeft {
+		width: 23%;
+		margin-right: 1%;
+		padding-top: 2%;
+	}
+	.navRight {
+		width: 75%;
+	}
+	.navRightTop {
+		margin-top: 9%;
+		font-size: 1.7em;
+	}
+	.login_box {
+		width: 97%;
+		padding-top: 1.3rem;
+		margin-top: 2.5%;
+		padding-bottom: 2.5%;
+	}
+	.common_text {
+		height: 351px;
+		overflow-y: auto;
+	}
+	.common_text2 {
+		height: 351px;
+		overflow-y: auto;
+	}
+}

@@ -1,0 +1,122 @@
+@charset "utf-8";
+/*** General::Reset ***/
+html {
+	-webkit-text-size-adjust: 100%;
+	font-size: 62.5%;
+}
+
+@media only screen and (min-width: 481px) {
+	html {
+		font-size: 94% !important;
+	}
+}
+
+@media only screen and (min-width: 561px) {
+	html {
+		font-size: 109% !important;
+	}
+}
+
+@media only screen and (min-width: 641px) {
+	html {
+		font-size: 125% !important;
+	}
+}
+
+*::-webkit-scrollbar {
+	width: 0;
+}
+
+* {
+	word-wrap: break-word;
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+button, optgroup, select, textarea {
+	color: inherit;
+	font: inherit;
+}
+
+input {
+	color: inherit;
+	font: inherit;
+}
+
+a, button, input[type="button"] {
+	cursor: pointer;
+}
+
+input[type="button"], input[type="submit"], input[type="text"] {
+	appearance: none;
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+
+i, em, address, cite {
+	font-style: normal;
+}
+
+ol, ul {
+	list-style-type: none;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+	display: none;
+}
+
+img {
+	vertical-align: middle;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+a, area {
+	text-decoration: none;
+	outline: none;
+	color: inherit;
+}
+
+a:focus {
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+
+input::-webkit-input-placeholder, input::-moz-placeholder {
+	color: inherit;
+	line-height: 1;
+}
+/*article,aside,dialog,footer,header,section,nav,menu,figure,figcaption{display:block;}*/
+input[type="radio"], input[type="checkbox"] {
+	vertical-align: middle;
+	margin-top: -2px;
+	margin-bottom: 1px;
+}
+
+mark {
+	background: none;
+}
+/* Preset */
+body {
+	font-size: 14px/150%;
+	font: 1.4rem/150% "microsoft yahei", "Hiragino Sans GB",
+		"Helvetica Neue", Helvetica, tahoma, arial, Verdana, sans-serif,
+		"\5B8B\4F53";
+	color: black;
+	background: #f7f7f7;
+	overflow: auto;
+	color: #333;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	*zoom: 1;
+}

@@ -1,0 +1,119 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #505459;
+	font-family: "Microsoft YaHei", sans-serif, Tahoma, Arial, Helvetica;
+	font-size: 14px;
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, form, img, p, hr, samp,
+	em {
+	margin: 0;
+	padding: 0;
+	border: none;
+	list-style-type: none;
+}
+
+a {
+	color: #0088cc;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus, input:focus, button:focus, select:focus, textarea:focus {
+	outline: none;
+}
+
+
+body {
+	background: #fff;
+}
+
+.approve_title {
+	text-align: center;
+	margin: 75px auto 40px auto;
+	font-size: 33px;
+}
+
+.input_in {
+	position: relative;
+	border: 1px solid #dddddd;
+	line-height: 48px;
+	height: 48px;
+	border-radius: 3px;
+}
+
+.input_in input {
+	width: 60%;
+	padding: 0 20px 0 45px;
+	font-size: 14px;
+	border: none;
+	line-height: 46px;
+	height: 46px;
+}
+
+.login {
+	width: 100%;
+	text-align: center;
+	border: 0;
+	border-radius: 3px;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 17px;
+	cursor: pointer;
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+}
+
+@media ( min-width : 1200px) {
+	.input_in {
+		width: 40%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.login {
+		width: 40%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.modal {
+		left: 38%;
+	}
+	.chat_h, .chat_lay {
+		width: 50%;
+		margin: 0 auto !important
+	}
+	.chat_jump .bar_progress {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.shop_show {
+		width: 50%;
+		margin: 0 auto;
+	}
+	.jump_step {
+		margin-top: 9%;
+	}
+	.chat_h {
+		padding: 6% 0 3% !important;
+	}
+	.chat_lay {
+		padding: 3% 28px 3% 35px !important;
+	}
+	.chat_goes {
+		margin: 4% auto 3% !important;
+	}
+	.banner ul li {
+		margin-left: -1px;
+	}
+}
